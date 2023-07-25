@@ -1,1 +1,41 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: green;
+  display: flex;
+  justify-content: center;
+}
+.card {
+  height: 600px;
+  width: 300px;
+  background: white;
+  border-radius: 10px;
+  border: black solid 3px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+#numero {
+  font-size: 36pt;
+  justify-content: center;
+  margin-top: 250px;
+  margin-right: 100px;
+
+  display: flex;
+}
+.rojo {
+  color: red;
+}
+.negro {
+  color: black;
+}
+.symbol {
+  float: left;
+  font-size: 36pt;
+  width: 100%;
+  height: 5%;
+}
+.symbolB {
+  float: right;
+  font-size: 36pt;
+
+  margin-top: 540px;
+}
